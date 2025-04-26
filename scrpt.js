@@ -60,9 +60,9 @@
     } else if (amal === "*") {
       natija = son1 * son2;
     } else if (amal === "/") {
-      natija = son2 !== 0 ? son1 / son2 : "0 ga bo‘lish mumkin emas!";
+      natija = son2 !== 0 ? son1 / son2 : "0 ga bo'lish mumkin emas!";
     } else {
-      natija = "Noto‘g‘ri amal kiritildi!";
+      natija = "Noto'g'ri amal kiritildi!";
     }
 
     natijaDiv.textContent = "Natija: " + natija;
